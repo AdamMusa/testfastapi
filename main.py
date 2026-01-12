@@ -7,5 +7,5 @@ def home()->dict:
     return {"status": "success"}
 
 @app.get("/up")
-def home()->dict:
+def healthcheck()->dict:
     return {"status": "success"}
