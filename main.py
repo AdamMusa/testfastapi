@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def home()->dict:
-    return {"status": "Hello this test is done by Komguep"}
+    return {"status": "This is a demo for YC"}
 
 @app.get("/up")
 def healthcheck()->dict:
